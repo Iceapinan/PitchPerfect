@@ -37,7 +37,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cvn-8i-Wvc">
-                                <rect key="frame" x="156" y="466" width="64" height="64"/>
+                                <rect key="frame" x="155" y="457" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="JRw-eo-Wbx"/>
                                     <constraint firstAttribute="height" constant="64" id="ezo-hZ-gId"/>
@@ -53,7 +53,7 @@
                             <constraint firstItem="zTr-fo-Met" firstAttribute="top" secondItem="Vrw-c3-2mm" secondAttribute="bottom" constant="17" id="AO0-tC-XPU"/>
                             <constraint firstItem="zTr-fo-Met" firstAttribute="centerX" secondItem="Vrw-c3-2mm" secondAttribute="centerX" id="BNm-U3-Yvx"/>
                             <constraint firstItem="Vrw-c3-2mm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OHa-Bn-mww"/>
-                            <constraint firstItem="cvn-8i-Wvc" firstAttribute="top" secondItem="zTr-fo-Met" secondAttribute="bottom" constant="17" id="hqb-gp-Xcg"/>
+                            <constraint firstItem="cvn-8i-Wvc" firstAttribute="top" secondItem="zTr-fo-Met" secondAttribute="bottom" constant="8" id="hqb-gp-Xcg"/>
                             <constraint firstItem="Vrw-c3-2mm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="laD-I8-Bjv"/>
                             <constraint firstItem="cvn-8i-Wvc" firstAttribute="centerX" secondItem="zTr-fo-Met" secondAttribute="centerX" id="zhQ-7V-mzu"/>
                         </constraints>
