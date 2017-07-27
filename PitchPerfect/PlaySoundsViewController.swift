@@ -49,16 +49,12 @@ class PlaySoundsViewController: UIViewController {
         super.viewWillAppear(animated)
         configureUI(.notPlaying)
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        stopAudio()
     }
-    */
+
     // MARK: Actions
     
     @IBAction func playSoundForButton(_ sender: UIButton) {
@@ -80,6 +76,6 @@ class PlaySoundsViewController: UIViewController {
         configureUI(.playing)    }
     
     @IBAction func stopButtonPressed(_ sender: AnyObject) {
-stopAudio()
+      stopAudio()
     }
 }
